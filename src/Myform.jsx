@@ -23,12 +23,12 @@ const Myform = (props) => {
   return (
     <>
       <div>
-        <div className='my-2'>
+        <div className='my-2 px-2'>
           <h1 className='text-2xl py-2 font-bold'>{props.heading}</h1>
           <textarea name="" value={text} onChange={onchnageHandler} id="" cols="30" rows="10" className='border-2 border-blue-400 w-full px-2 rounded'></textarea>
         </div>
-        <button className='bg-blue-400 text-white px-4 py-1 rounded mx-1' onClick={handleUpcliked}>ConvertToUppercase</button>
-        <button className='bg-blue-400 text-white px-4 py-1 rounded mx-1' onClick={handleLocliked}>ConvertToLowercase</button>
+        <button className='bg-blue-400 text-white px-4 py-1 rounded mx-1 my-1' onClick={handleUpcliked}>ConvertToUppercase</button>
+        <button className='bg-blue-400 text-white px-4 py-1 rounded mx-1 my-1' onClick={handleLocliked}>ConvertToLowercase</button>
       </div>
       <div>
         <h1 className='text-xl font-bold'>Your text sammary</h1>
